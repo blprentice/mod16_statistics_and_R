@@ -1,3 +1,5 @@
+# DELIVERABLE 1
+
 # Import dplyr
 library(dplyr)
 
@@ -12,6 +14,8 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance +
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
              ground_clearance + AWD, data=mecha_car_tbl))
 
+# DELIVERABLE 2
+
 # Import and read MechaCar suspension coil data
 susp_coil_tbl <- read.csv(file='Suspension_Coil.csv',check.names=FALSE)
 
@@ -21,6 +25,8 @@ total_summary <- susp_coil_tbl %>% summarize(mean=mean(PSI), median=median(PSI),
 # Create summary tables for each lot
 lot_summary <- susp_coil_tbl %>% group_by(Manufacturing_Lot) %>% 
   summarize(mean=mean(PSI), median=median(PSI), variance=var(PSI), SD=sd(PSI))
+
+# DELIVERABLE 3
 
 # Create population table for t-test
 population_table <- read.csv('Suspension_Coil.csv',check.names = FALSE)
