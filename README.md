@@ -18,7 +18,7 @@ In other words, vehicle length and ground clearance have a significant impact on
 
 MechaCar design specifications require that variance of the suspension coils must not exceed 100 pounds per square inch. We ran summary statistics on the Suspension_Coil data; here is what we found:
 
-* In total, the variance did not exceed 100 lbs/sq in. In the chart below, you can see the total variance is 62.29.
+* In total, the variance did not exceed 100 lbs/sq in. In the table below, you can see the total variance is 62.29.
 
 ![Summary Stats for All Suspension Coils](challenge/resources/total_summary.png)
 
