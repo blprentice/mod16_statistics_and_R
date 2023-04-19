@@ -28,3 +28,20 @@ MechaCar design specifications require that variance of the suspension coils mus
 
 
 
+## T-tests on Suspension Coils
+
+The t-test conducted on the suspension coil PSI data came back with a p-value of 0.1715, which is larger than our assumed significance level 0f 0.05, indicating that we cannot reject the null hypthesis that there is no statistical difference in PSI across manufacturing lots. 
+
+![suspension_coils_t_test](challenge/resources/suspension_coils_t_test.png)
+
+The t-test results for Lot 1 suspension coils...
+
+![lot1_coils_t_test](challenge/resources/lot1_coils_t_test.png)
+
+The t-test results for Lot 2 suspension coils...
+
+![lot2_coils_t_test](challenge/resources/lot2_coils_t_test.png)
+
+The t-test results for Lot 3 suspension coils...
+
+![lot3_coils_t_test](challenge/resources/lot3_coils_t_test.png)
